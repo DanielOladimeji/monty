@@ -1,4 +1,4 @@
-nclude "monty.h"
+#include "monty.h"
 
 int usage_error(void);
 int malloc_error(void);
@@ -12,8 +12,8 @@ int no_int_error(unsigned int line_number);
  */
 int usage_error(void)
 {
-		fprintf(stderr, "USAGE: monty file\n");
-			return (EXIT_FAILURE);
+	fprintf(stderr, "USAGE: monty file\n");
+	return (EXIT_FAILURE);
 }
 
 /**
